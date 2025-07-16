@@ -18,7 +18,5 @@ public class Create : ICarterModule
             .ProducesProblem(StatusCodes.Status400BadRequest)
             .WithSummary("Create product")
             .WithDescription("Create Product");
-
-        throw new NotImplementedException();
     }
 }

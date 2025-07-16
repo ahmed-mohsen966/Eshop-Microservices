@@ -1,3 +1,3 @@
 ﻿
-public record CreateProductRequest(string name, List<string> category, string description, string imageFile, decimal price);
+public record CreateProductRequest(string Name, List<string> Category, string Description, string ImageFile, decimal Price);
 public record CreateProductResponse(Guid Id);
