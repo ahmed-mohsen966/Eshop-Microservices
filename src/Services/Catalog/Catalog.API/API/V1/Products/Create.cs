@@ -1,9 +1,4 @@
-﻿using Carter;
-using Catalog.API.Products.Commands.CreateProduct;
-using Mapster;
-using MediatR;
-
-namespace Catalog.API.API.V1.Products;
+﻿namespace Catalog.API.API.V1.Products;
 
 public class Create : ICarterModule
 {
